@@ -66,7 +66,7 @@ const Calculadora = () => {
           <Boton clik={agregarInput}>/</Boton>
         </div>
         <div className="fila">
-          <BotonClear clear={() => { setInput(""); setMensaje(""); }}>Clear</BotonClear>
+          <BotonClear clear={() => { setInput(""); setMensaje(""); }}>Limpiar</BotonClear>
         </div>
       </div>
     </div>
